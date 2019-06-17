@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    font-size: 90%; 
+    font-size: 13px; 
 }
 
 a:hover {
@@ -38,7 +38,7 @@ nav a {
     min-height: 100px;
     grid-auto-flow: column;
     grid-gap: 1.5em;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #logo {
@@ -46,7 +46,7 @@ nav a {
     justify-content: start;
     align-content: center;
     grid-auto-flow: column;
-    font-size: 17px; 
+    font-size: 15px; 
     color: #FFCCAF;
 }
 
