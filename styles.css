@@ -1,0 +1,64 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    font-weight: lighter; 
+    padding:10px 80px;
+}
+
+p {
+    font-size: 90%; 
+}
+
+a:hover {
+    color: #FFCCAF;
+}
+
+/* HOME */ 
+
+.intro {
+    padding-top: 80px; 
+}
+
+.intro h1 a {
+    font-size: 40px;
+    text-decoration: none; 
+    color: black;
+}
+
+.intro h1 a:hover {
+    color: #FFCCAF;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray; 
+}
+
+#navbar {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    font-size: 15px;
+}
+
+#logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    grid-auto-flow: column;
+    font-size: 17px; 
+    color: #FFCCAF;
+}
+
+#logo a {
+    color: #FFCCAF;
+}
+
+#links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 3em;
+}
+
