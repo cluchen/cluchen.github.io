@@ -2,6 +2,7 @@ body {
     font-family: 'Assistant', sans-serif;
     font-weight: lighter; 
     padding:10px 80px;
+    line-height: 1.5;
 }
 
 p {
@@ -62,3 +63,60 @@ nav a {
     grid-gap: 3em;
 }
 
+/*ABOUT*/ 
+
+.about img {
+    padding-top: 30px; 
+    width: 100%
+}
+
+.about h3 a {
+    font-weight: bolder; 
+}
+.about .link {
+    border-bottom: 4px solid rgb(253, 229, 215);
+    text-decoration: none;
+    color: inherit;
+}
+
+.about .link:hover {
+    border-bottom: 4px solid #E5E7E9;
+}
+
+.about .text {
+    padding: 50px 300px; 
+    text-align: justify; 
+}
+ 
+.about .text .l p .link {
+    border-bottom: 2px solid rgb(253, 229, 215);
+}
+
+.about .text .l p .link:hover {
+    border-bottom: 2px solid #E5E7E9;
+}
+
+/*PRAYER*/
+
+.prayer h1 {
+    font-size: 42px; 
+}
+.prayer .in_row, .work .in_row {
+    font-size: 100%; 
+    display:flex; 
+    justify-content: center; 
+}
+
+.prayer .left {
+    width: 50%;  
+}
+
+.prayer .right {
+    width: 50%;
+    text-align: justify; 
+    padding-top: 120px; 
+}
+
+.prayer .verse {
+    color: #FF8585; 
+}
