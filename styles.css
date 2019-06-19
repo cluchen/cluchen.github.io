@@ -47,12 +47,17 @@ nav a {
     justify-content: start;
     align-content: center;
     grid-auto-flow: column;
-    font-size: 15px; 
+    font-size: 14px; 
     color: #FFCCAF;
+    grid-gap: 1.5em;
 }
 
 #logo a {
     color: #FFCCAF;
+}
+
+#logo a:hover {
+    color:gray;
 }
 
 #links {
@@ -73,6 +78,7 @@ nav a {
 .about h3 a {
     font-weight: bolder; 
 }
+
 .about .link {
     border-bottom: 4px solid rgb(253, 229, 215);
     text-decoration: none;
@@ -95,6 +101,24 @@ nav a {
 .about .text .l p .link:hover {
     border-bottom: 2px solid #E5E7E9;
 }
+
+.about #navbar {
+    font-size: 14px; 
+}
+
+.about .text #navbar #logo ._links, .about .text #navbar #links ._links {
+    text-decoration: none; 
+    color: #C0C0C0;
+    border-bottom: 2px solid #D6D6D6;
+}
+
+.about .text #navbar #logo {
+    grid-gap: 3em;
+}
+
+.about .text #navbar #logo ._links:hover, .about .text #navbar #links ._links:hover {
+    border-bottom: 2px solid #E5E7E9;
+} 
 
 /*PRAYER*/
 
