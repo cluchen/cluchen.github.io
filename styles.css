@@ -35,10 +35,6 @@ a:hover {
     color: black;
 }
 
-.intro h1 a:hover {
-    color: #FFCCAF;
-}
-
 nav a {
     text-decoration: none;
     color: gray; 
@@ -49,7 +45,7 @@ nav a {
     min-height: 100px;
     grid-auto-flow: column;
     grid-gap: 1.5em;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #logo {
@@ -57,7 +53,7 @@ nav a {
     justify-content: start;
     align-content: center;
     grid-auto-flow: column;
-    font-size: 14px; 
+    font-size: 15px; 
     color: #FFCCAF;
     grid-gap: 1.5em;
 }
@@ -110,10 +106,6 @@ nav a {
 
 .about .text .l p .link:hover {
     border-bottom: 2px solid #E5E7E9;
-}
-
-.about #navbar {
-    font-size: 14px; 
 }
 
 .about .text #navbar #logo ._links, .about .text #navbar #links ._links {
