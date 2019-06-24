@@ -152,6 +152,10 @@ nav a {
     #links {
         grid-gap: 3%;
     }
+
+    .about .text #navbar #logo {
+        grid-gap: 3%;
+    }
 }
 
 /*PRAYER*/
