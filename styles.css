@@ -1,7 +1,8 @@
 body {
     font-family: 'Assistant', sans-serif;
     font-weight: lighter; 
-    padding:10px 80px;
+    padding-right: 7%; 
+    padding-left: 7%; 
     line-height: 1.5;
 }
 
@@ -23,6 +24,14 @@ a:hover {
     background-color: #FFF5F0; 
 }
 
+footer {
+    color: #BCBCBC; 
+    display: fixed;
+    bottom: 0; 
+    width: 100%; 
+    text-align: left; 
+}
+
 /* HOME */ 
 
 .intro {
@@ -37,7 +46,7 @@ a:hover {
 
 nav a {
     text-decoration: none;
-    color: gray; 
+    color: #BCBCBC; 
 }
 
 #navbar {
@@ -63,7 +72,7 @@ nav a {
 }
 
 #logo a:hover {
-    color:gray;
+    color:#BCBCBC;
 }
 
 #links {
@@ -92,11 +101,14 @@ nav a {
 }
 
 .about .link:hover {
-    border-bottom: 4px solid #E5E7E9;
+    border-bottom: 4px solid #EFEFEF;
 }
 
 .about .text {
-    padding: 50px 300px; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    padding-right: 25%; 
+    padding-left: 25%; 
     text-align: justify; 
 }
  
@@ -105,13 +117,13 @@ nav a {
 }
 
 .about .text .l p .link:hover {
-    border-bottom: 2px solid #E5E7E9;
+    border-bottom: 2px solid #EFEFEF;
 }
 
 .about .text #navbar #logo ._links, .about .text #navbar #links ._links {
     text-decoration: none; 
-    color: #C0C0C0;
-    border-bottom: 2px solid #D6D6D6;
+    color: #BCBCBC;
+    border-bottom: 2px solid #DDDDDD;
 }
 
 .about .text #navbar #logo {
@@ -119,8 +131,32 @@ nav a {
 }
 
 .about .text #navbar #logo ._links:hover, .about .text #navbar #links ._links:hover {
-    border-bottom: 2px solid #E5E7E9;
+    border-bottom: 2px solid #EFEFEF;
 } 
+
+@media screen and (max-width: 600px) {
+    .about .text {
+        padding-top: 5%; 
+        padding-bottom: 5%; 
+        padding-left: 0%; 
+        padding-right: 0%;  
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about .text {
+        padding-top: 5%; 
+        padding-bottom: 5%; 
+        padding-left: 0%; 
+        padding-right: 0%; 
+    }
+
+    #navbar {
+        display: inline-block;
+        grid-auto-flow: row;
+
+    }
+}
 
 /*PRAYER*/
 
@@ -141,6 +177,7 @@ nav a {
     width: 50%;
     text-align: justify; 
     padding-top: 120px; 
+    padding-bottom: 60px; 
 }
 
 .prayer .verse {
@@ -148,10 +185,9 @@ nav a {
 }
 
 .prayer .form {
-    margin-top: 50px; 
     background-color: #FFF5F0;
-    position: absolute;
-    height: 40%; 
+    position: absolute; 
+    height: 50%;
     width: 100%;
     left: 0; 
     right: 0; 
