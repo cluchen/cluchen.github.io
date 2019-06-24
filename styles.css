@@ -80,7 +80,7 @@ nav a {
     justify-content: right;
     align-content: center;
     grid-auto-flow: column;
-    grid-gap: 3em;
+    grid-gap: 10%; 
 }
 
 /*ABOUT*/ 
@@ -127,14 +127,14 @@ nav a {
 }
 
 .about .text #navbar #logo {
-    grid-gap: 3em;
+    grid-gap: 10%;
 }
 
 .about .text #navbar #logo ._links:hover, .about .text #navbar #links ._links:hover {
     border-bottom: 2px solid #EFEFEF;
 } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .about .text {
         padding-top: 5%; 
         padding-bottom: 5%; 
@@ -154,7 +154,6 @@ nav a {
     #navbar {
         display: inline-block;
         grid-auto-flow: row;
-
     }
 }
 
