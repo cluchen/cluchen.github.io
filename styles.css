@@ -148,14 +148,6 @@ nav a {
         padding-left: 0%; 
         padding-right: 0%; 
     }
-
-    #links {
-        grid-gap: 3%;
-    }
-
-    .about .text #navbar #logo {
-        grid-gap: 3%;
-    }
 }
 
 /*PRAYER*/
