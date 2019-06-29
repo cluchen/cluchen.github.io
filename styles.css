@@ -11,7 +11,7 @@ p {
 }
 
 a:hover {
-    color: #FFCCAF;
+    color: #DFDFDF;
 }
 
 .rectangle {
@@ -70,7 +70,7 @@ nav a {
 }
 
 #logo a:hover {
-    color:#BCBCBC;
+    color:#DFDFDF;
 }
 
 #links {
@@ -98,10 +98,6 @@ nav a {
     color: inherit;
 }
 
-.about .link:hover {
-    border-bottom: 4px solid #EFEFEF;
-}
-
 .about .text {
     padding-top: 5%; 
     padding-bottom: 5%; 
@@ -121,7 +117,6 @@ nav a {
 .about .text #navbar #logo ._links, .about .text #navbar #links ._links {
     text-decoration: none; 
     color: #BCBCBC;
-    border-bottom: 2px solid #DDDDDD;
 }
 
 .about .text #navbar #logo {
@@ -129,7 +124,7 @@ nav a {
 }
 
 .about .text #navbar #logo ._links:hover, .about .text #navbar #links ._links:hover {
-    border-bottom: 2px solid #EFEFEF;
+    color:  #DFDFDF; 
 } 
 
 @media screen and (max-width: 700px) {
@@ -159,7 +154,8 @@ nav a {
 .prayer h1 {
     font-size: 42px; 
 }
-.prayer .in_row, .work .in_row {
+
+.prayer .in_row, .work .in_row, .graphics .in_row {
     font-size: 100%; 
     display:flex; 
     justify-content: center; 
@@ -183,7 +179,7 @@ nav a {
 .prayer .form {
     background-color: #FFF5F0;
     position: absolute; 
-    height: 50%;
+    height: 45%;
     width: 100%;
     left: 0; 
     right: 0; 
@@ -215,3 +211,64 @@ nav a {
 .prayer .form #text #typeform_txt p .link:hover {
     border-bottom: 2px solid #FFAFAF;
 } 
+
+/*GRAPHICS*/ 
+
+.graphics .in_row {
+    display: flex; 
+}
+
+.graphics .left {
+    align-self: flex-end;
+    width: 50%; 
+}
+
+.graphics .left h1 {
+    font-size: 64px; 
+    padding-top: 7%;
+    margin-bottom: 0; 
+}
+
+.graphics .in_row .right {
+    padding-top: 7%; 
+    width: 50%;
+    text-align: right; 
+}
+
+.graphics .right {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.graphics .right .moma {
+    width: 100%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    transform: rotate(-3deg);
+}
+
+/* DAILY UI */ 
+
+.graphics .in_row .left p .link {
+    font-weight: bold; 
+    color: black; 
+    text-decoration: none; 
+    border-bottom: 2px solid #FFCCAF; 
+}
+
+.graphics .in_row .left p .link:hover {
+    border-bottom: 2px solid #DFDFDF;
+} 
+
+.graphics .right .daily_ui {
+    width: 90%; 
+    transform: rotate(-3deg);
+}
+
+.graphics .in_row .left .bar {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-content: center;
+    grid-gap: 6%; 
+}
