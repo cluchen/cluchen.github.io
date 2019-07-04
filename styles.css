@@ -13,7 +13,7 @@ p {
 a:hover {
     color: #DFDFDF;
 }
-
+ 
 .rectangle {
     height: 2px;
     background-color: #FFDFCD;  
@@ -122,6 +122,8 @@ nav a {
 .about .text #navbar #logo {
     grid-gap: 10%;
 }
+
+
 
 .about .text #navbar #logo ._links:hover, .about .text #navbar #links ._links:hover {
     color:  #DFDFDF; 
