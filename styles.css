@@ -11,7 +11,7 @@ p {
 }
 
 a:hover {
-    color: #DFDFDF;
+    color: #BCBCBC;
 }
  
 .rectangle {
@@ -30,23 +30,30 @@ footer {
     bottom: 0; 
     width: 100%; 
     text-align: left; 
+    padding-top: 5%; 
+    padding-bottom: 1%; 
 }
 
 /* HOME */ 
+
+.intro .link {
+    font-weight: bolder; 
+    color: black; 
+    text-decoration: none; 
+    border-bottom: 2px solid rgb(253, 229, 215);
+}
+
+.intro .link:hover {
+    border-bottom: 2px solid #EFEFEF;
+}
 
 .intro {
     padding-top: 80px; 
 }
 
-.intro h1 a {
-    font-size: 40px;
-    text-decoration: none; 
-    color: black;
-}
-
 nav a {
     text-decoration: none;
-    color: #BCBCBC; 
+    color: black; 
 }
 
 #navbar {
@@ -66,11 +73,11 @@ nav a {
 }
 
 #logo a {
-    color: #FFCCAF;
+    color: #BCBCBC;
 }
 
 #logo a:hover {
-    color:#DFDFDF;
+    color:#FFCCAF;
 }
 
 #links {
@@ -217,6 +224,7 @@ nav a {
 /*GRAPHICS*/ 
 
 .graphics .in_row {
+    align-content: center;
     display: flex; 
 }
 
@@ -226,13 +234,12 @@ nav a {
 }
 
 .graphics .left h1 {
-    font-size: 64px; 
-    padding-top: 7%;
+    font-size: 400%;
     margin-bottom: 0; 
 }
 
 .graphics .in_row .right {
-    padding-top: 7%; 
+    padding-top: 9%; 
     width: 50%;
     text-align: right; 
 }
@@ -248,6 +255,17 @@ nav a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
     transform: rotate(-3deg);
 }
+
+.graphics .graphics_content .link {
+    font-size: 13px; 
+    color: black; 
+    text-decoration: none; 
+    border-bottom: 2px solid #FFCCAF; 
+}
+
+.graphics .graphics_content .link:hover {
+    border-bottom: 2px solid #DFDFDF;
+} 
 
 /* DAILY UI */ 
 
@@ -273,4 +291,12 @@ nav a {
     justify-content: start;
     align-content: center;
     grid-gap: 6%; 
+}
+
+.dark nav a {
+    color: white; 
+}
+
+.dark a:hover {
+    color: #BCBCBC;
 }
