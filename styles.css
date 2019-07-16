@@ -96,7 +96,7 @@ nav a {
 }
 
 #logo a:hover {
-    color:#FFCCAF;
+    color: #FFCCAF;
 }
 
 #links {
@@ -114,35 +114,59 @@ nav a {
 /* ABOUT */ 
 
 .index img { transition: all .5s ease-in-out; }
-.index img:hover { transform: scale(.96); opacity: .7; }
+.index img:hover { transform: scale(.97); opacity: .7; }
 .about .right { width: 55%; text-align: justify; }
 
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+    .column { width: 100%; }
 
-    .index .in_row, .daily_ui .in_row, .graphics .in_row {
+    .index .in_row, .daily_ui .in_row, .graphics .in_row, .foodprint .in_row {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
         margin: auto;
         display: inline-block;
     }
+    
+    footer { text-align: right; }
 }
 
 @media screen and (max-width: 700px) {
-    .about .in_row .right {
-        width: 100%; 
+    .about .in_row .right { width: 100%; }
+    .about .in_row .left { width: 0%; padding-right: 0px; }
+}
+
+@media screen and (max-width: 900px) {
+    .prayer .in_row {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+        margin: auto;
+        display: inline-block;
+    }
+    .prayer .left, .prayer .right {
+        width: 100%;  
     }
 
-    .about .in_row .left {
-        width: 0%;
-        padding-right: 0px;
- 
+    .prayer .right {
+        padding-top: 5%; 
     }
 }
 
 /* DAILY UI */ 
 
 /* .daily_ui img:hover { opacity: .8; } */ 
+
+@media screen and (min-width: 900px) {
+    .prayer .right {
+        padding-top: 15%; 
+    }
+}
+
+.prayer .form #text {
+    text-align: center;
+    justify-content: center;
+    padding-left: 27%; 
+    padding-right: 27%;
+    padding-bottom: 5%; 
+}
