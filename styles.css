@@ -136,6 +136,16 @@ nav a {
     .about .in_row .left { width: 0%; padding-right: 0px; }
 }
 
+/* DAILY UI */ 
+
+/* .daily_ui img:hover { opacity: .8; } */ 
+
+/* PRAYER */ 
+
+@media screen and (min-width: 900px) {
+    .prayer .right { padding-top: 15%; }
+}
+
 @media screen and (max-width: 900px) {
     .prayer .in_row {
 		width: 100%;
@@ -151,22 +161,4 @@ nav a {
     .prayer .right {
         padding-top: 5%; 
     }
-}
-
-/* DAILY UI */ 
-
-/* .daily_ui img:hover { opacity: .8; } */ 
-
-@media screen and (min-width: 900px) {
-    .prayer .right {
-        padding-top: 15%; 
-    }
-}
-
-.prayer .form #text {
-    text-align: center;
-    justify-content: center;
-    padding-left: 27%; 
-    padding-right: 27%;
-    padding-bottom: 5%; 
 }

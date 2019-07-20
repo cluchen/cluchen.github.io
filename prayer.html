@@ -10,20 +10,19 @@
         <link href="styles.css" rel="stylesheet">  
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <div class = "dark">
     <body>
         <div class = "prayer">
             <header>
                 <nav>
                     <div id = "navbar">
                         <div id = "logo">
-                            <a href="/index">Cynthia Chen</a>
+                            <a id = "_index" href="/index">Cynthia Chen</a>
                         </div>
                         <div id = "links">
-                            <a href="/index">Work</a>
-                            <a href="/about">About</a>
-                            <a href="https://drive.google.com/a/ucdavis.edu/file/d/133QZ-aS8IyZpXIUZUHzIcveuHeqQ7jPF/view?usp=sharing">Resume</a>
-                            <a href="/prayer">Prayer</a>
+                            <a id = "_work" href="/index">Work</a>
+                            <a id = "_about" href="/about">About</a>
+                            <a id = "_resume" href="https://drive.google.com/a/ucdavis.edu/file/d/133QZ-aS8IyZpXIUZUHzIcveuHeqQ7jPF/view?usp=sharing">Resume</a>
+                            <a style = "color: #BCBCBC;" id = "_prayer" href="/prayer">Prayer</a>
                         </div>
                     </div>
                 </nav>   
@@ -40,16 +39,8 @@
                     </div>
                 </div>
             </div>
-            <div class="rectangle"></div>
-
-            <br>
-            <div class = "form">
-                <div id = "text">
-                    <div id = "typeform_txt"><p style = "font-size: 18px;" >I’ve created a <a class = "link" href="#"><strong>Typeform</strong></a> for you to submit a prayer request!</p></div>
-                    <p>Feel free to write whatever’s on your heart—anything from something to rejoice over or a trial you’ve been going through. You can also choose to keep things anonymous! Please feel free to do so.</p>
-                    <p>I’ll be praying for you! :)</p>
-                </div>
-            </div>
+            <div style = "margin-bottom: 2%;" class="rectangle"></div>
+            <div class="typeform-widget" data-url="https://cynthia101931.typeform.com/to/Bk6Xwi" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Bk6Xwi&utm_source=typeform.com-14342134-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div><br>
         </div>
         <footer>
             <div id = "logo">
@@ -63,5 +54,4 @@
         </footer>
         <br>
     </body>
-</div>
 </html>
