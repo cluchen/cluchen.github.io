@@ -118,9 +118,14 @@ nav a {
 .about .right { width: 55%; text-align: justify; }
 
 @media screen and (max-width: 600px) {
+
+    footer .logo {
+        display: none; 
+    }
+
     .column { width: 100%; }
 
-    .index .in_row, .daily_ui .in_row, .graphics .in_row, .foodprint .in_row, .exploratorium .in_row {
+    .index .in_row, .daily_ui .in_row, .graphics .in_row, .foodprint .in_row, .exploratorium .in_row, .dipi .in_row {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
@@ -128,7 +133,8 @@ nav a {
         display: inline-block;
     }
 
-    .exploratorium .content .in_row .left, .exploratorium .content .in_row .right {
+    .exploratorium .content .in_row .left, .exploratorium .content .in_row .right, .dipi .content .in_row .left, .dipi .content .in_row .right,
+        .footprint .content .in_row .left, .footprint .content .in_row .right  {
         width: 100%; 
     }
     
@@ -167,5 +173,5 @@ nav a {
     }
 }
 
-.exploratorium .content .left, .dipi .content .left { width: 40%; text-align: center; margin-top: 0;}
-.exploratorium .content .right, .dipi .content .right { width: 60%; }
+.exploratorium .content .left, .dipi .content .left, .foodprint .content .left { width: 40%; text-align: center; margin-top: 0;}
+.exploratorium .content .right, .dipi .content .right, .foodprint .content .right { width: 60%; }
