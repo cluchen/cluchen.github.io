@@ -11,6 +11,7 @@ p {
 }
 
 a:hover {
+    transition: all .2s ease-in-out;
     color: #BCBCBC;
 }
 
@@ -108,20 +109,17 @@ nav a {
 }
 
 .in_row { display: flex; justify-content: center; }
-.left { width: 50%; padding-right: 20px; }
-.right { width: 50%; }
+.left { width: 50%; padding-right: 15px; }
+.right { width: 50%; padding-left: 15px; }
 
 /* ABOUT */ 
 
-.index img { transition: all .5s ease-in-out; }
-.index img:hover { transform: scale(.97); opacity: .7; }
-.about .right { width: 55%; text-align: justify; }
+.index_link {transition: all .5s ease-in-out; }
+.index_link:hover { transform: scale(.97); opacity: .7; }
 
 @media screen and (max-width: 600px) {
 
-    footer .logo {
-        display: none; 
-    }
+    footer .logo { visibility: hidden; }
 
     .column { width: 100%; }
 
@@ -134,7 +132,7 @@ nav a {
     }
 
     .exploratorium .content .in_row .left, .exploratorium .content .in_row .right, .dipi .content .in_row .left, .dipi .content .in_row .right,
-        .footprint .content .in_row .left, .footprint .content .in_row .right  {
+        .foodprint .content .in_row .left, .foodprint .content .in_row .right  {
         width: 100%; 
     }
     
@@ -145,12 +143,6 @@ nav a {
     .about .in_row .right { width: 100%; }
     .about .in_row .left { width: 0%; padding-right: 0px; }
 }
-
-/* DAILY UI */ 
-
-/* .daily_ui img:hover { opacity: .8; } */ 
-
-/* PRAYER */ 
 
 @media screen and (min-width: 900px) {
     .prayer .right { padding-top: 15%; }
