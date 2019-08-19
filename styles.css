@@ -24,7 +24,7 @@ footer {
     bottom: 0; 
     width: 100%; 
     text-align: left; 
-    padding-top: 3%; 
+    padding-top: 4%; 
     padding-bottom: 1%; 
 }
 
@@ -71,7 +71,7 @@ footer a:hover, footer #logo a:hover {
 }
 
 .intro {
-    padding-top: 80px; 
+    padding-top: 100px; 
 }
 
 nav a {
@@ -111,6 +111,8 @@ nav a {
 .in_row { display: flex; justify-content: center; }
 .left { width: 50%; padding-right: 15px; }
 .right { width: 50%; padding-left: 15px; }
+.daily_ui .left { width: 50%; padding-right: 10px; }
+.daily_ui .right { width: 50%; padding-left: 10px; }
 
 /* ABOUT */ 
 
@@ -165,5 +167,5 @@ nav a {
     }
 }
 
-.exploratorium .content .left, .dipi .content .left, .foodprint .content .left { width: 40%; text-align: center; margin-top: 0;}
-.exploratorium .content .right, .dipi .content .right, .foodprint .content .right { width: 60%; }
+.exploratorium .content .left, .dipi .content .left, .foodprint .content .left { width: 30%; text-align: center; margin-top: 0;}
+.exploratorium .content .right, .dipi .content .right, .foodprint .content .right { width: 70%; }
