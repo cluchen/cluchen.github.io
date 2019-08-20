@@ -120,9 +120,7 @@ nav a {
 .index_link:hover { transform: scale(.97); opacity: .7; }
 
 @media screen and (max-width: 600px) {
-
-    footer .logo { visibility: hidden; }
-
+    footer #logo { visibility: hidden; }
     .column { width: 100%; }
 
     .index .in_row, .daily_ui .in_row, .graphics .in_row, .foodprint .in_row, .exploratorium .in_row, .dipi .in_row {
@@ -137,13 +135,17 @@ nav a {
         .foodprint .content .in_row .left, .foodprint .content .in_row .right  {
         width: 100%; 
     }
-    
+
     footer { text-align: right; }
 }
 
 @media screen and (max-width: 700px) {
     .about .in_row .right { width: 100%; }
     .about .in_row .left { width: 0%; padding-right: 0px; }
+    .daily_ui .left { width: 100%; padding-left: -10px; }
+    .daily_ui .right { width: 100%; padding-left: 0px !important; }
+    .left { width: 100%;}
+    .right { width: 100%; padding-left: 0px !important; }
 }
 
 @media screen and (min-width: 900px) {
