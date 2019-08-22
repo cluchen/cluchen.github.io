@@ -12,14 +12,14 @@ p {
 
 a:hover {
     transition: all .2s ease-in-out;
-    color: #BCBCBC;
+    color: #B2B2B2;
 }
 
 footer {
     font-weight: lighter; 
     display: grid;
     grid-auto-flow: column;
-    color: #BCBCBC; 
+    color: #B2B2B2; 
     display: fixed;
     bottom: 0; 
     width: 100%; 
@@ -31,7 +31,7 @@ footer {
 footer a, footer p {
     transition: all .2s ease-in-out;
     text-decoration: none;
-    color: #BCBCBC; 
+    color: #B2B2B2; 
     font-size: 14px; 
 }
 
@@ -109,15 +109,17 @@ nav a {
 }
 
 .in_row { display: flex; justify-content: center; }
-.left { width: 50%; padding-right: 15px; }
-.right { width: 50%; padding-left: 15px; }
+.left { width: 50%; padding-right: 10px; }
+.right { width: 50%; padding-left: 10px; }
+.about .left { width: 40%;}
+.about .right { width: 60%;}
 .daily_ui .left { width: 50%; padding-right: 10px; }
 .daily_ui .right { width: 50%; padding-left: 10px; }
 
 /* ABOUT */ 
 
 .index_link {transition: all .5s ease-in-out; }
-.index_link:hover { transform: scale(.97); opacity: .7; }
+.index_link:hover { transform: scale(.97);}
 
 @media screen and (max-width: 600px) {
     footer #logo { visibility: hidden; }
