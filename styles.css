@@ -5,7 +5,11 @@ body {
     line-height: 1.5;
 }
 
-p {
+b {
+    font-weight: 400; 
+}
+
+p, ul li {
     font-weight: lighter; 
     font-size: 12px; 
 }
@@ -171,5 +175,5 @@ nav a {
     }
 }
 
-.exploratorium .content .left, .dipi .content .left, .foodprint .content .left { width: 30%; text-align: center; margin-top: 0;}
+.exploratorium .content .left, .dipi .content .left, .foodprint .content .left { width: 30%; text-align: left; margin-top: 0;}
 .exploratorium .content .right, .dipi .content .right, .foodprint .content .right { width: 70%; }
