@@ -1,3 +1,8 @@
+<!--
+hello! 
+have some fun looking around at my code; no website-creation sites such as squarespace or wix was utilized, as i was lucky enough to have the time + energy this summer to work on building from scratch! please don't copy + paste any lines of code / plagiarize - it'll be a learning experience for you to code and design yourself, just as it was for me. 
+-->
+
 <!doctype html> 
 <html lang="en"> 
     <head>
@@ -6,6 +11,16 @@
 
         <!--LinkedIn-->
         <meta property="og:image" content="images/linkedin.png">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147238117-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-147238117-1');
+        </script>
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700&display=swap" rel="stylesheet">
@@ -26,7 +41,7 @@
                         <div id = "links">
                             <a style = "color: #BCBCBC;" id = "_work" href="/index">Work</a>
                             <a id = "_about" href="/about">About</a>
-                            <a id = "_resume" href="https://drive.google.com/a/ucdavis.edu/file/d/133QZ-aS8IyZpXIUZUHzIcveuHeqQ7jPF/view?usp=sharing">Resume</a>
+                            <a id = "_resume" href="https://docs.google.com/document/d/1sYFZCRRXIQ6r8i1MCh7yW4_w51ri1FsrTkIq5l5Vx0c/edit?usp=sharing">Resume</a>
                             <a id = "_prayer" href="/prayer">Prayer</a>
                         </div>
                     </div>
@@ -38,7 +53,7 @@
                     <p style = "font-weight: 400; font-size: 50px; text-align: center; margin-top: 0; padding-right: 2%;">VICTR Lab Website Redesign</p>
                 </div>
                 <div class = "column right">
-                    <p style = "font-size: 14px;">I'm aiding in a website redesign for a UC Davis Research Lab (VICTR Lab) on behalf of #include. Currently still ongoing!</p>
+                    <p style = "font-size: 14px;">I'm aiding in a website redesign for a UC Davis Research Lab (VICTR Lab) on behalf of #include. Here's the user research process!</p>
                     <div class="rectangle"></div>
                     <div class = "bar">
                         <p style = "margin-top: 0;"><span style = "font-weight: 600;">Organization</span><br>
@@ -59,19 +74,146 @@
 
                 <div style = "padding-top: 3%;" class= "in_row">
                     <div class = "column left">
-                        <p style = "font-weight: 400; font-size: 20px;"> About</p>
+                        <p style = "font-weight: 400; font-size: 20px;">Introduction</p>
                     </div>
                     <div style = "padding-top: 1%;" class = "column right">
-                        <p>Will update soon!
-                        </p><br><br><br>
-                        </p>
+                        <p>VICTR (The Virtual Interaction & Communication Technology) lab at UC Davis, under Jorge Pena, studies the “uses and effects of interactive technologies”, particularly in how the design features in video games and virtual environments impacts online and offline experiences. As a part of the design team at #include, I worked to refresh this research lab website to improve the user experience and overall look, allow key audiences better navigate this site, and convey the lab’s mission in a clear and engaging way. 
+                        </p><br>
+                    </div>
+                </div>
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">The Problem</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>The current website interface leaves users feeling frustrated, uninspired, and confused—not only is it difficult for a user to get where they need to be in an intuitive manner, but also the site also holds an outdated aesthetic. An improved user experience and interface is needed to allow the existing content be more accessible to audiences. 
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <img style = "width: 100%;" src="images/victr4.png" class="graphics_img">
+                <p style = "font-weight: 300; font-size: 12px; text-align: right; color: #AAAAAA;">Current design for the VICTR lab website.</p><br><br>
+
+                <hr noshade size = "1" color = "#E4E4E4">
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">Stakeholder Meeting</p>
+                        <p style = "font-weight: 400; font-size: 14px; color: #B7B7B7;">Stakeholder Meeting</p>
+                        <p style = "font-weight: 400; font-size: 14px; color: #B7B7B7;">Website Analytics</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>In order to properly align our goals with the stakeholder’s goals, we conducted a stakeholder interview with Jorge Pena, lab director of VICTR lab. From this, we gathered information about the project timeline + limitations, design constraints, potential users + audiences to target, high traffic pages, and stakeholder goals for the website redesign. 
+                        <br><br>
+                        In terms of website analytics, we found that high traffic pages included <b>News Items, Prospective Students, and Become an Undergraduate Student</b>. This data helped shape an indication of user types who were visiting the page, as well as what their goals and purposes were. 
+                                
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">Users + Audience</p>
+                        <p style = "font-weight: 400; font-size: 14px; color: #B7B7B7;">User Types</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>As a full group, we took a cursory look by spending a few minutes analyzing the site individually, taking note of what could be improved. In addition, it allowed designers, developers, and PMs gain familiarity with the site. Some things noticed included: 
+                            <br><br>
+                        A year ago, Minhee and I had taken DES 1 (Introduction to Design) and for our final project, had been on a team together (with Thorie Asgeirsdottir and Christina Aliev) that focused tackling sustainable solutions to water consumption in produce. This DES 1 project took around 1 month, and involved extensive user research and presentations as well as prototypes of a physical barcode design. At HackDavis, we decided to further expand on this project as a team of four and worked on developing a digital app that was simple and accessible. <b>Thus, this case study combines both user research done in DES 1 as well prototypes + development created during HackDavis!</b>
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">User Interviews</p>
+                        <p style = "font-weight: 400; font-size: 14px; color: #B7B7B7;">User Interviews</p>
+                        <p style = "font-weight: 400; font-size: 14px; color: #B7B7B7;">Usability Testing</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>To more deeply understand and locate user’s goals and site pain points, we tested and interviewed two Linguistic / Communications Undergraduate students and an Education Graduate Student.
+                        <br><br>
+                        After asking introductory and industry/website-specific questions, we took interviewees on a walkthrough of the site to observe how they used the site and accessed information. Furthermore, we asked sample user goals to see how they navigated the site to achieve these goals.  Below is a sample of a user goal we asked an interviewee—“You’re an undergraduate at UC Davis interested in this lab. Search up how to join the lab as an Undergraduate Research Assistant”—as well as his user flow to navigate to “Become an Undergraduate Research Assistant”. 
+                        <br><br>
+                        Overall, through the usability tests, we found that the navbar and side-navigation was not intuitive to users. For example, users, given the goal of finding information on how to join the lab as an Undergraduate, quickly looked to “Prospective Graduate Students” as well as “Graduate Students” before looking at the sidebar. After these tests, we asked interviewees follow up questions about their experience and what they wanted changed.
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <img style = "width: 100%;" src="images/victr2.png" class="graphics_img">
+                <p style = "font-weight: 300; font-size: 12px; text-align: right; color: #AAAAAA;">User flow to a user goal tested: “You’re an undergraduate at UC Davis interested in this lab. Search up how to join the lab as an Undergraduate Research Assistant”.</p><br><br>
+
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">Pain Points</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>
+                        <span style = "font-weight: 500; font-size: 15px;">Outdated visual design</span><br>Visually, the website is outdated, sterile / static. Modernization and a new aesthetic are important, as this would drive the site to become more user-friendly and engaging. 
+                        <br><br>
+                        <span style = "font-weight: 500; font-size: 15px;">Lack of visual guidelines / hierarchy</span><br>Pages were not unified in design guidelines (odd padding, font size, margins, etc), and lacked hierarchy (logo overshadow page text, etc). 
+                        <br><br>
+                        <span style = "font-weight: 500; font-size: 15px;">Needs organizational clarity </span><br>The navigation bar was unclear in what kind of information would be presented. As shown from usability testing, users were unable to get to where they want to be—which was frustrating and resulted in a negative experience.
+                        <br><br>
+                        <span style = "font-weight: 500; font-size: 15px;">Needs more social media capabilities
+                        </span><br>Needs areas to link to Github, Facebook, etc. to enhance marketing of lab overall and encourage visitors to be connected to the lab digitally.
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">Design Goals</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>
+                        <span style = "font-weight: 500; font-size: 15px;">Unify pages into proper visual guidelines + hierarchy 
+                        </span><br>Often, we saw an odd use of margin on pages, imposing banners, and broken links, which can be fixed by a set of visual guidelines. In addition, by assigning different visual characteristics to sections of information and by noting of the content hierarchy, we can allow users to understand information more easily.
+                        <br><br>
+                        <span style = "font-weight: 500; font-size: 15px;">Allow for easier navigation and organizational clarity</span><br>Allow audiences to achieve user goals / navigate the site in an easier manner. Make existing content more accessible to audiences.  
+                        <br><br>
+                        <span style = "font-weight: 500; font-size: 15px;">Convey the lab’s mission across the site</span><br>
+                        Show user the lab’s missions in an inviting way (increase social media capabilities, highlight visually the lab’s mission, etc).
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                        <p style = "font-weight: 400; font-size: 20px;">Information Architecture</p>
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p>During user testing, we found that the organization in the navbar was confusing and unintuitive, so we set on fixing this issue. Below is the current and revised sitemap for comparison. Here are some revisions made: 
+                        <br><br>
+                        <u>Research / Background</u><br>Place in “About”, instead of on the sidebar. This way, there is more open space on each page for other text, and all lab information is now in “About”. 
+                        <br><br>
+                        <u>Become an Undergraduate Student</u><br>During user testing, we found that this was one of the most confusing pages to locate—it currently is placed on the sidebar, but is only accessible after scrolling. In addition, by just looking at the tabs, it’s unclear to users that prospective undergraduates (not only prospective graduates) can join. Thus, both (prospective undergraduates and prospective graduates) are now under “Get Involved”. 
+                        <br><br>
+                        <u>Prospective Graduate Students</u><br>Site is only inviting to prospective graduate students, not undergraduates. In addition, using a title such as “Get Involved” introduces an encouraging and inviting CTA for students looking to join. 
+                        <br><br>
+                        <u>Graduate Students</u></u><br>“Prospective Graduate Students” and “Graduate Students” sounds too closely related—titles were confusing during user testing and do not elaborate on the differences. Tab is now put under “Team”, where all lab members are introduced. 
+                        <br><br><br></p>
+                    </div>
+                </div>
+
+                <img style = "width: 100%;" src="images/victr3.png" class="graphics_img">
+                <p style = "font-weight: 300; font-size: 12px; text-align: right; color: #AAAAAA;">Current and revised sitemap.</p><br><br>
+
+
+                <div style = "padding-top: 3%;" class= "in_row">
+                    <div class = "column left">
+                    </div>
+                    <div style = "padding-top: 1%;" class = "column right">
+                        <p style = "font-weight: 400; font-size: 18px;">Thanks for reading this research process—we’re still working on the UI for this project! <br>Stay tuned for a complete update.</p>
                     </div>
                 </div>
                 
             </div>
             <footer style = "padding-top: 10%;">
                 <div id = "logo">
-                    <p>Built w/ Love + Code - Cynthia Chen 2019</p>
+                    <p>Built w/ Love + Code. Cynthia Chen 2019</p>
                 </div>
                 <div id = "links">
                     <a href="mailto:&#099;&#108;&#117;&#099;&#104;&#101;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Email</a>

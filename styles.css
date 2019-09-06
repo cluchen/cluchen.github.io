@@ -1,3 +1,7 @@
+/* hello! 
+have some fun looking around at my code; no website-creation sites such as squarespace or wix was utilized, as i was lucky enough to have the time + energy this summer to work on building from scratch! please don't copy + paste any lines of code / plagiarize - it'll be a learning experience for you to code and design yourself, just as it was for me. */
+
+
 body {
     font-family: 'Assistant', sans-serif;
     padding-right: 7%; 
@@ -126,6 +130,7 @@ nav a {
 .index_link:hover { transform: scale(.97);}
 
 @media screen and (max-width: 600px) {
+    footer #links {grid-gap: 25% !important;}
     footer #logo { visibility: hidden; }
     .column { width: 100%; }
 
