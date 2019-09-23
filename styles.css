@@ -1,14 +1,42 @@
 /* hello! 
 have some fun looking around at my code; no website-creation sites such as squarespace or wix was utilized, as i was lucky enough to have the time + energy this summer to work on building from scratch! please don't copy + paste any lines of code / plagiarize - it'll be a learning experience for you to code and design yourself, just as it was for me. */
 
-
 body {
     font-family: 'Assistant', sans-serif;
     padding-right: 7%; 
     padding-left: 7%; 
     line-height: 1.5;
-    border-left: 10px solid #F7F3F6;
 }
+
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+        margin: 0 auto;
+    width: 320px;  
+  }
+
+  .shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: rgba(253, 207, 207, 0.50);
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    top: -51px;
+    position: relative;
+    text-align: center; 
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
 
 b {
     font-weight: 400; 
@@ -80,7 +108,7 @@ footer a:hover, footer #logo a:hover {
 }
 
 .intro {
-    padding-top: 100px; 
+    padding-top: 150px; 
 }
 
 nav a {
@@ -152,11 +180,13 @@ nav a {
 }
 
 @media screen and (max-width: 700px) {
+    .intro { padding-top: 50px; }
+    .index .intro { padding-top: 100px; }
     .about .in_row .right { width: 100%; }
     .about .in_row .left { width: 0%; padding-right: 0px; }
     .daily_ui .left { width: 100%; padding-left: -10px; }
     .daily_ui .right { width: 100%; padding-left: 0px !important; }
-    .left { width: 100%;}
+    .left { width: 100%; }
     .right { width: 100%; padding-left: 0px !important; }
 }
 
@@ -183,3 +213,8 @@ nav a {
 
 .exploratorium .content .left, .dipi .content .left, .foodprint .content .left { width: 30%; text-align: left; margin-top: 0;}
 .exploratorium .content .right, .dipi .content .right, .foodprint .content .right { width: 70%; }
+
+.dot1 { height: 7px; width: 7px; background-color: #FFCBCB; border-radius: 50%; display: inline-block; }
+.dot2 { height: 7px; width: 7px; background-color: #F090FF; border-radius: 50%; display: inline-block; }
+.dot3 { height: 7px; width: 7px; background-color: #AAEBFF; border-radius: 50%; display: inline-block; }
+.dot4 { height: 7px; width: 7px; background-color: #67F864; border-radius: 50%; display: inline-block; }
