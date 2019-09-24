@@ -5,11 +5,12 @@
 
 	Hello! 
 
-	I'm Cynthia, a third-year Cognitive Science major at UC Davis. 
+	I'm Cynthia, a third-year Cognitive Science major & CS + Stat minor at the 
+	University of California, Davis; recently interned at the Exploratorium in SF.  
+
 	I'm interested in UI/UX and human-centered design--let's talk about it! 
 
-	Feel free to explore this site; I've got work / projects and some info about me. 
-	Contact me @ cluchen@ucdavis.edu and I'll get back to you as soon as possible :) 
+	PS: check out my work below!
 
 
 
