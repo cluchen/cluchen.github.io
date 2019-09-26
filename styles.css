@@ -30,16 +30,16 @@ body {
       transform: translateY(0);
     }
     40% {
-      transform: translateY(-15px);
+      transform: translateY(-13px);
     }
     60% {
-      transform: translateY(-10px);
+      transform: translateY(-9px);
     }
   }
 
 .totop {
     height:8px;
-    width:51px;
+    width:40px;
     position:relative;
     margin:50px auto;
     cursor: pointer;
@@ -75,10 +75,16 @@ body {
     opacity:0;
     bottom:0
   }
+  .totop .arrow span{
+    opacity:1;
+    height:37px;
+  }
+
   .totop:hover .arrow span{
     opacity:1;
-    height:40px;
+    height:0px;
   }
+
   .totop:hover .arrow:before ,.totop:hover .arrow:after{
     bottom:0;
   }
