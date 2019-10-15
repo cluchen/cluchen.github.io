@@ -41,7 +41,7 @@ body {
     height:8px;
     width:51px;
     position:relative;
-    margin:50px auto;
+    margin:55px auto;
     cursor: pointer;
   }
   
@@ -160,7 +160,7 @@ footer a:hover, footer #logo a:hover {
 }
 
 .intro {
-    padding-top: 50px; 
+    padding-top: 30px; 
 }
 
 nav a {
@@ -171,7 +171,7 @@ nav a {
 
 #navbar {
     display: grid;
-    min-height: 100px;
+    min-height: 90px;
     grid-auto-flow: column;
     font-size: 14px;
 }
@@ -232,8 +232,8 @@ nav a {
 }
 
 @media screen and (max-width: 700px) {
+    .totop .arrow {padding-top:}
     .intro { padding-top: 50px; }
-    .index .intro { padding-top: 100px; }
     .about .in_row .right { width: 100%; }
     .about .in_row .left { width: 0%; padding-right: 0px; }
     .daily_ui .left { width: 100%; padding-left: -10px; }
