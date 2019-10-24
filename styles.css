@@ -84,15 +84,13 @@ body {
     height:37px;
   }
 
-  .totop:hover .arrow span{
-    opacity:1;
-    height:0px;
+  .totop:hover .arrow span, .arrow:hover{
+    opacity:.7;
   }
 
   .totop:hover .arrow:before ,.totop:hover .arrow:after{
     bottom:0;
   }
-  
 
 b {
     font-weight: 400; 
