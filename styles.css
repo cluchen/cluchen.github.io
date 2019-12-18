@@ -10,8 +10,8 @@ body {
 }
 
 .in_row { display: flex; padding-top: 20px; }
-.left { width: 45%; padding-right: 8%;}
-.right { width: 40%;}
+.left { width: 470px; padding-right: 7%;}
+.right { width: 400px;}
 
 #index_title {
     width: 690px;
