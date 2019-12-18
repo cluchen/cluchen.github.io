@@ -14,8 +14,25 @@ body {
 .right { width: 40%;}
 
 #index_title {
-    width: 67%;
+    width: 690px;
 }
  
 a {text-decoration: none; color: #A0A0A0; border-bottom: 1px solid;}
 a:hover {  transition: .4s ease-in-out; color: #000000; border-bottom-color: #CFCFCF;}
+
+@media screen and (max-width: 800px) {
+    #index_title {
+        width: 100%;
+    }
+    .left { width: 100%  !important; }
+    .right { width: 100% !important; }
+
+    .in_row {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+        margin: auto;
+        display: inline-block;
+    }
+    }
+}
