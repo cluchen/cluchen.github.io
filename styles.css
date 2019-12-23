@@ -17,8 +17,15 @@ body {
     width: 690px;
 }
  
-a {text-decoration: none; color: #A0A0A0; border-bottom: 1px solid;}
-a:hover {  transition: .4s ease-in-out; color: #000000; border-bottom-color: #CFCFCF;}
+a {text-decoration: none; color: #A0A0A0; border-bottom: 1px solid #BBBBBB;}
+a:hover {  transition: .3s ease-in-out; color: #000000; border-bottom-color: #CFCFCF;}
+
+.intro {
+    font-size: 320%; 
+    font-family: 'Noto Serif KR', serif; 
+    line-height: 1.4;
+
+}
 
 @media screen and (max-width: 800px) {
     #index_title {
@@ -34,5 +41,9 @@ a:hover {  transition: .4s ease-in-out; color: #000000; border-bottom-color: #CF
         margin: auto;
         display: inline-block;
     }
-    }
 }
+
+@media screen and (max-width: 600px) {
+    .intro { font-size: 300%; }
+}
+  
