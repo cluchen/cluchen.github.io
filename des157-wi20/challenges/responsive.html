@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge 1</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Lato&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">  
+    </head>
+    <body> 
+        <header>
+            <h1>HTML and CSS Refresher Challenges</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HTML Basics</a></li>
+                <li><a href="cssbasics.html">CSS Basics</a></li>
+                <li><a href="layout.html">Page Layout</a></li>
+                <li><a href="responsive.html">Responsive Design</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>About Media Queries</h2>
+                <p>Media queries are @media rules in CSS that allow for responsive design - you can create CSS specifications for different window sizes, such as 600px. For min-width media quaries, the code following only applies for widths greater than or equal to x width; for max-width media queries, the code following only applies for widths smaller than or equal to x width. We design from small to big screens, since smaller screens are harder to design for - there's less window space to fill in content, and elements often need to be modified or relayed on top of each other.</p>
+            </article>
+            <article>
+                <h2>Relative Units</h2>
+                <p>Relative units are units that are relative to everything else, and it's possible to make it so that the size of the unit is relative to the other elements on the page. The em unit makes it relative to the size of the parent element, and vw is 1% of the viewport's width while vh is 1% of the viewport's height.</p>
+                <img src="images/boxmodel.png" alt="Box Model Img" width="600" height="364">
+            </article>
+            <article class="article3">
+                <h2>Meta Viewport Tag</h2>
+                <p>This meta viewport tag sets the width and height of the viewport to the width and height of the device. The page is not responsive and the meta tags aren't of use without the meta viewport tag.</p>
+            </article>
+        </main>
+        <footer>
+            <p>Page by Cynthia</p>
+            <p>HTML checked by Aileen, Emmanuel</p>
+            <p><a class= links href="http://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+        </footer>
+    </body>
+</html>

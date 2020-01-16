@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge 1</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Lato&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">  
+    </head>
+    <body> 
+        <header>
+            <h1>HTML and CSS Refresher Challenges</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HTML Basics</a></li>
+                <li><a href="cssbasics.html">CSS Basics</a></li>
+                <li><a href="layout.html">Page Layout</a></li>
+                <li><a href="responsive.html">Responsive Design</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>Inheritance in CSS</h2>
+                <p>Inheritence is the property in code where certain objects/values can adopt specific properties based on the property of its parent. For example, an inherited property is "color", for where body { color: #000000 }, every tag in the body will have that color due to having inherited from the body tag.</p>
+            </article>
+            <article>
+                <h2>Specificity in CSS</h2>
+                <p>When there are two or more conflicting CSS rules about a certain tag, the rule that is more specific based on inline styles, IDs, classes/attributes, and elements (such as h1) is applied. A compound selector in CSS is a selector that can use different types to focus in on one element (ex: #some-id .some-class div {}), whereas multiple selector allows you to apply the same style to multiple elements (ex: div#main, div#nav {}).</p>
+            </article>
+            <article>
+                <h2>ID and Class Attributes</h2>
+                <p>An ID can be used to identify one element and must be unique within the HTML code; it uses "#" (ex: #text1 {}) while a class can be used to identify more than one element and uses "." (ex: .text1 {}).</p>
+            </article>
+        </main>
+        <footer>
+            <p>Page by Cynthia</p>
+            <p>HTML checked by Aileen, Emmanuel</p>
+            <p><a class= links href="http://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+        </footer>
+    </body>
+</html>
