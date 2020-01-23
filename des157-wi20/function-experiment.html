@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Experiment</title>
+</head>
+<body>
+    <h1>Function Experiment</h1>
+    <script>
+
+        function getRandomInt(max) {
+            var min = 0; 
+            return Math.floor((max - min +1) * Math.random()) + min; 
+        }
+
+        function guessNum() {
+            var userNum = prompt("guess a random number between 1 - 10", "");
+            var randomNum = Math.round(Math.random() * 10); 
+            
+            if (parseInt(userNum)) { 
+                while (userNum != randomNum) {
+                    console.log("wrong number; try again!");
+                    var userNum = prompt("guess a random number between 1 and 10", "");
+                }
+            } else {
+                console.log("you don't have an integer; try again!");
+            }
+            console.log("CONGRATS!");
+
+            var colors = ["green", "yellow", "blue", "green", "red", "orange", "white", "black", "violet", "dark yellow"];
+            console.log(colors[getRandomInt(10)]); 
+        }
+    </script>
+</body>
+</html>
