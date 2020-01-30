@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Miles to Kilometers Converter</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
+	
+	<!--/ /-------- My Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<h1>Miles to Kilometers Converter</h1>
+    
+    <div class="container top">
+    	<p>Type in a number of miles and click the button to convert the distance to kilometers.</p>
+        
+        <form method="post" action="somephpfile.php" id="convert">
+        
+        	<input type="text" name="distance" id="distance" placeholder="distance">
+            <input type="submit" name="convertdist" value="Convert Distance">
+        
+        </form>
+    </div>
+    <div class="container bottom" id="answer">
+    	<h2 class="invisible">Answer goes here</h2>
+	</div>
+	
+	<script>
+		
+
+		var formTag = document.querySelector("form");
+		formTag.addEventListener("submit", function(event) {
+
+			event.preventDefault();
+			var userInput = parseFloat(document.querySelector("input").value);
+			var result;
+
+			if (userInput) {
+				distInKm = userInput * 1.609344;
+				//roundedDistInKm.toFixed(3);
+				roundedDistInKm = Math.round(distInKm*1000) / 1000;
+				result = `${userInput} miles converts to ${roundedDistInKm} kilometers`;
+			}
+			else {
+				result = "please enter a number";
+			}
+
+			var answerH2 = document.querySelector("h2");
+			answerH2.innerHTML = result;
+			answerH2.removeAttribute("class");
+		});
+
+	</script>
+</body>
+</html>
