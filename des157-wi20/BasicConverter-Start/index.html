@@ -37,17 +37,17 @@
 		
 
 		var formTag = document.querySelector("form");
+		var result;
 		formTag.addEventListener("submit", function(event) {
 
 			event.preventDefault();
 			var userInput = parseFloat(document.querySelector("input").value);
-			var result;
 
 			if (userInput) {
-				distInKm = userInput * 1.609344;
+				distKilo = userInput * 1.609344;
 				//roundedDistInKm.toFixed(3);
-				roundedDistInKm = Math.round(distInKm*1000) / 1000;
-				result = `${userInput} miles converts to ${roundedDistInKm} kilometers`;
+				roundedDistKilo = Math.round(distKilo*1000) / 1000;
+				result = `${userInput} miles converts to ${roundedDistKilo} kilometers`;
 			}
 			else {
 				result = "please enter a number";
