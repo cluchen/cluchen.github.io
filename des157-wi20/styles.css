@@ -29,6 +29,13 @@ h1, h2 {
     font-weight: 300;
 }
 
+#userInput{
+    font-size: 2em;
+    position: absolute;top:500px;
+    border: 2em;
+    margin: 2em;
+}
+
 h3 {
     padding-top: 10%; 
     font-size: 120%; 
