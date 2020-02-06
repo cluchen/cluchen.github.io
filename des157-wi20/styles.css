@@ -8,12 +8,6 @@ body {
     background: #F9F9F9;
     margin:0 auto;
 }
-
-#mySketch {
-    width: 800px; 
-    height: 250px;
-    border: .4px solid #E4E4E4;
-}
  
 hr {
     border: .5px solid #E4E4E4;
