@@ -1,0 +1,78 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;    
+    font-size: 14px; 
+    font-weight: 300;
+    width: 800px;
+    padding: 5%;
+    line-height: 1.6;
+    background: #F2F7FC;
+    margin:0 auto;
+}
+
+a { 
+    text-decoration: none; 
+    color: #A0A0A0; 
+}
+
+a:hover {
+    transition: .3s ease-in-out; 
+    color: #000000; 
+}
+
+h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+#items{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    display: grid; 
+    grid-template-columns: 50ch;
+}
+
+#items article img:hover {
+    transform: scale(1.1);
+    opacity: .8;
+    transition: .5s ease-in-out;
+}
+
+footer {
+    padding: 5% 0% 3% 0%; 
+    text-align: left;
+    color: #A0A0A0; 
+}
+
+#clipper_click, #phone_click, #notebook_click {
+    padding: 10% 20%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* declarations */
+    h1 {
+        text-align: center;
+    }
+    #items{
+        padding-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        display: grid; 
+        grid-template-columns: 35ch 40ch 35ch;
+        padding-bottom: 5%;
+    }
+ }
