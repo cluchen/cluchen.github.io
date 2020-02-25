@@ -1,0 +1,48 @@
+body {
+    padding: 5% 10%; 
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.inter {
+    padding: 2% 5%; 
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 30px;
+}
+
+img {
+    width: 30%; 
+}
+
+.intro {
+    padding: 5%; 
+    background-color: #FFF5FA;
+    border-radius: 25px;
+    border: 2px solid #FFE3F1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+footer {
+    padding: 5% 0% 3% 0%; 
+    text-align: right;
+    color: #A0A0A0; 
+}
+
+a { 
+    text-decoration: none; 
+    color: #A0A0A0; 
+}
+
+a:hover {
+    transition: .3s ease-in-out; 
+    color: #000000; 
+}
+
