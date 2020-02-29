@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 25px; 
+}
+p {
+    font-size: 13px; 
+}
+h1 {
+    font-size: 40px;
+    padding-bottom: 10px; 
+}
+h3 {
+    font-size: 18px; 
+    font-weight: 400;
+}
+div.container4 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+div.container5 {
+    margin: 0;
+    top: 110%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+.in_row { display: flex;}
+.left { width: 35%; padding-right: 10%;}
+.right { width: 50%;}
+
+hr {
+    border: .5px solid #E4E4E4;
+}
