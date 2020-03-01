@@ -1,16 +1,18 @@
 body {
-    font-family: 'Open Sans';
-    font-size: 25px; 
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
 }
 p {
-    font-size: 13px; 
+    font-size: 16px; 
 }
 h1 {
     font-size: 40px;
     padding-bottom: 10px; 
+    font-weight: 400;
 }
 h3 {
-    font-size: 18px; 
+    font-size: 16px; 
     font-weight: 400;
 }
 div.container4 {
@@ -26,13 +28,13 @@ div.container5 {
     margin: 0;
     top: 110%;
     position: absolute;
-    padding-left: 10%;
-    padding-right: 6%;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 
 .in_row { display: flex;}
-.left { width: 35%; padding-right: 10%;}
-.right { width: 50%;}
+.left { width: 42%; padding-right: 7%;}
+.right { width: 58%;}
 
 hr {
     border: .5px solid #E4E4E4;
