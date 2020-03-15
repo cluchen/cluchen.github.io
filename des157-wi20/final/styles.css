@@ -95,15 +95,9 @@ a:hover {  transition: .4s ease-in-out; color: #BBBBBB; border-bottom-color: #CF
     height: 26px;
   }
   
-  
-  /* Hide default HTML checkbox */
-  
   .switch input {
     display: none;
   }
-  
-  
-  /* The slider */
   
   .slider {
     position: absolute;
@@ -143,9 +137,6 @@ a:hover {  transition: .4s ease-in-out; color: #BBBBBB; border-bottom-color: #CF
     transform: translateX(22px);
   }
   
-  
-  /* Rounded sliders */
-  
   .slider.round {
     border-radius: 25px;
   }
@@ -153,7 +144,24 @@ a:hover {  transition: .4s ease-in-out; color: #BBBBBB; border-bottom-color: #CF
   .slider.round:before {
     border-radius: 50%;
   }
-  
-  #menu2 {
-  display:none;
+
+  /*Biblio*/ 
+
+  div.container6 {
+    margin: 0;
+    top: 10%;
+    position: absolute;
+    padding-left: 13%;
+    padding-right: 13%;
+    text-align: left;
+    padding-bottom: 5%;
+  }
+
+  .bibio .left_right {
+    padding-right: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0; 
   }

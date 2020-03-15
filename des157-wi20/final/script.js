@@ -1,17 +1,16 @@
-var checkbox1 = document.getElementById('checkbox1');
-var menu1 = document.getElementById('menu1');
-var menu2 = document.getElementById('menu2');
+const tog = document.getElementById('tog');
+const text1 = document.getElementById('text1');
+const text2 = document.getElementById('text2');
+text2.style.display = 'none';
 
-menu2.style.display = 'none';
-
-checkbox1.onchange = function () {
-  if (checkbox1.checked) {
-    menu1.style.display = 'block';
-    menu2.style.display = 'none';
+tog.onchange = function () {
+  if (tog.checked) {
+    text1.style.display = 'block';
+    text2.style.display = 'none';
     AOS.init();
   } else {
-    menu2.style.display = 'block';
-    menu1.style.display = 'none';
+    text2.style.display = 'block';
+    text1.style.display = 'none';
     AOS.init();
   }
 };
