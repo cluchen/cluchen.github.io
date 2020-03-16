@@ -1,3 +1,21 @@
+* {
+  padding:0;
+}
+.content {
+  min-height: calc(100vh - 40px);
+  /* 80px header + 40px footer = 120px  */
+}
+footer {
+  height: 40px;
+  padding-left: 13%;
+  padding-right: 13%;
+  text-align: right;
+  color: #A0A0A0; 
+  text-align: center;
+}
+footer a {
+  display: inline;
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
@@ -14,6 +32,10 @@ h1 {
 h3 {
   font-size: 16px; 
   font-weight: 400;
+}
+
+#text1 img {
+  width: 100%;
 }
 div.container4 {
   margin: 0;
@@ -74,7 +96,7 @@ a {
 .right_right { width: 80%;}
 
 .left_intro { width: 80%; padding-right: 5%;}
-.right_intro { width: 20%; align-items: right;}
+.right_intro { width: 20%; text-align: right;}
 
 .bibio .left_right {
 padding-right: 0;
@@ -165,3 +187,15 @@ a:hover {  transition: .4s ease-in-out; color: #BBBBBB; border-bottom-color: #CF
     list-style-type: none;
     padding: 0; 
   }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
