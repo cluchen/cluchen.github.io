@@ -1,3 +1,5 @@
+"use strict"
+
 const tog = document.getElementById('tog');
 const text1 = document.getElementById('text1');
 const text2 = document.getElementById('text2');
