@@ -5,17 +5,7 @@
   min-height: calc(100vh - 40px);
   /* 80px header + 40px footer = 120px  */
 }
-footer {
-  height: 40px;
-  padding-left: 13%;
-  padding-right: 13%;
-  text-align: right;
-  color: #A0A0A0; 
-  text-align: center;
-}
-footer a {
-  display: inline;
-}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
@@ -187,15 +177,9 @@ a:hover {  transition: .4s ease-in-out; color: #BBBBBB; border-bottom-color: #CF
     list-style-type: none;
     padding: 0; 
   }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+  @media screen and (min-width: 1000px) {
+    .main {
+        top: 100%;
+    }
+}
