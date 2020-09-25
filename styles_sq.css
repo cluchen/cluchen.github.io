@@ -1,53 +1,31 @@
-@font-face {
-  font-family: "Mueller-Web-Light";
-  src: url("../fonts/Mueller-Web-400-Light.woff") format("woff"),
-    url("../fonts/Mueller-Web-400-Light.woff") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Mueller-Web-Regular";
-  src: url("../fonts/Mueller-Web-500-Regular.woff") format("woff"),
-    url("../fonts/Mueller-Web-500-Regular.woff") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Mueller-Web-Medium";
-  src: url("../fonts/Mueller-Web-600-Medium.woff") format("woff"),
-    url("../fonts/Mueller-Web-600-Medium.woff") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-    font-family: "Mueller-Web-Regular", -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, arial, sans-serif;
-    font-weight: 300;  
-    font-size: 13.5px; 
+    font-family: 'Nunito Sans', sans-serif;    
+    font-size: 14px; 
+    font-weight: 300;
     padding-right: 10%; 
     padding-left: 10%; 
-    padding-top: 5%; 
+    padding-top: 12%; 
     line-height: 1.6;
-    background:white;
+    background: #F9F9F9;
 }
 
-.in_row { display: flex; padding-top: 20px; padding-bottom: 20px; }
-.left { width: 400px; padding-right: 7%;}
-.right { width: 550px;}
+.in_row { display: flex; padding-top: 20px; }
+.left { width: 470px; padding-right: 7%;}
+.right { width: 400px;}
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #565656;
-  padding: 0;
+#index_title {
+    width: 690px;
 }
+ 
+a {text-decoration: none; color: #A0A0A0; border-bottom: 1px solid #BBBBBB;}
+a:hover {  transition: .3s ease-in-out; color: #000000; border-bottom-color: #CFCFCF;}
 
-a {text-decoration: none; color: #828282; border-bottom: 1px solid #A1A1A1;}
-a:hover {  transition: .3s ease-in-out; color: #A6A6A6; border-bottom-color: #CFCFCF;}
+.intro {
+    font-size: 200%; 
+    font-family: 'Noto Serif KR', serif; 
+    line-height: 1.4;
 
+}
 
 @media screen and (max-width: 800px) {
     #index_title {
@@ -58,7 +36,7 @@ a:hover {  transition: .3s ease-in-out; color: #A6A6A6; border-bottom-color: #CF
 
     .in_row {
 		width: 100%;
-    max-width: 100%;
+		max-width: 100%;
 		height: auto;
         margin: auto;
         display: inline-block;
