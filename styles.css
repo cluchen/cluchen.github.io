@@ -34,8 +34,8 @@ body {
 }
 
 .in_row { display: flex; padding-top: 20px; padding-bottom: 20px; }
-.left { width: 400px; padding-right: 7%;}
-.right { width: 550px;}
+.left { width: 40%; padding-right: 7%;}
+.right { width: 53%; align-content: right;}
 
 hr {
   display: block;
