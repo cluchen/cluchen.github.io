@@ -22,6 +22,9 @@
   font-style: normal;
 }
 
+img {
+  width: 100%; 
+}
 body {
     font-family: "Mueller-Web-Regular", -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, arial, sans-serif;
     font-weight: 300;  
