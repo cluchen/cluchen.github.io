@@ -1,0 +1,113 @@
+body {
+    padding: 7% 10%;
+    font-size: 12px; 
+    line-height: 2;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+}
+
+footer {
+    height: 50px;
+    margin-top: -50px;
+    padding-bottom: 3%;
+    color: gray;
+    padding-top: 10%; 
+    padding-bottom: 5%;
+}
+
+table th {
+    width: auto !important;
+}
+
+#two, #five {
+    width: 15% !important;
+}
+
+#one{
+    width: 3% !important;
+}
+
+#three{
+    width: 6% !important;
+}
+
+#four {
+    width: 7% !important;
+}
+
+img {
+    height: 400px; 
+    float: right; 
+    padding-top: 20px;
+}
+
+nav { 
+    clear: right;
+    padding-top: 10%;
+}
+
+.landing-container {
+    position: relative;
+}
+
+h1 {
+    font-size: 80px;
+    position: absolute;
+}
+
+h3 {
+    padding-top: 150px; 
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+    line-height: 1.5;
+    width: 50%;
+}
+
+.update {
+    padding-top: 50px; 
+}
+
+.tab-pane {
+    padding-top: 3%;
+}
+
+.top th {
+    border-top: none;
+    font-weight: 400;
+    color: gray;
+}
+
+.table thead th {
+    border-bottom: none; 
+}
+
+.r {
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5EA8F8;
+    transition: .3s ease-in-out;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
